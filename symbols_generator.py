@@ -8,4 +8,3 @@ def random_symbols():
     symbol = random.randint(0, len(symbols_list) - 1)
     return symbols_list[symbol]
 
-print(random_symbols())
